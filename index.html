@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Bulma Projekt by Dustin</title>
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        .has-background {
+            position: relative;
+            overflow: hidden
+        }
+
+        .hero-background {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:
+                [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        }
+
+        .grid * { grid-column: md; }
+        .grid-xl { grid-column: xl; }
+
+        .is-paddingless-horizontal { padding-left: 0; padding-right: 0;}
+
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <section class="hero is-medium has-background">
+        <img class="hero-background" src="img/md-hunter.png" alt="MichaelDraws Hunter" style="object-position: 50% 10%;">
+        <div class="hero-body">
+        </div>
+    </section>
+
+    <nav class="navbar has-shadow is-spaced">
+
+        <div class="container">
+
+            <div class="navbar-brand">
+
+                <a href="https://twitter.com/michaeldtweets" class="navbar-item">
+                    <img src="img/md-logo.png" alt="Michael Draws Logo">
+                </a>
+
+                <h1 class="navbar-item title is-4">MichaelDraws</h1>
+
+            </div>
+
+            <div class="navbar-menu">
+
+                <div class="navbar-start">
+
+                    <a href="https://twitter.com/michaeldtweets" class="nav-item">
+                        <span class="icon">
+                            <i class="fa fa-twitter"> </i>
+                        </span>
+                    </a>
+
+                    <a href="http://instagram.com/michaeldraws/" class="nav-item">
+                        <span class="icon">
+                            <i class="fa fa-instagram"> </i>
+                        </span>
+                    </a>
+
+                </div>
+
+                <div class="navbar-end">
+
+                    <input class="input" type="text" placeholder="Search something...">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="section is-paddingless-horizontal" style="padding-top: 0">
+        <div class="container grid">
+
+            <div class="section is-paddingless-horizontal">
+                <h1 class="title is-2">Artist and Gamer with passion</h1>
+                <h2 class="subtitle is-3 has-text-grey-light">Main Games: Destiny and Monster Hunter</h2>
+            </div>
+
+            <figure class="columns is-variable is-2 is-marginless grid-xl">
+                <div class="column">
+                    <div class="image card">
+                        <img src="img/md-redhunter.png" alt="Red Hunter">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image card">
+                        <img src="img/md-aegi.png" alt="MH Aegi">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image card">
+                        <img src="img/md-titan.png" alt="Titan">
+                    </div>
+                </div>
+            </figure>
+            <figcaption class="level">
+                <small class="level-item has-text-grey">
+                    Some examples of my works
+                </small>
+            </figcaption>
+
+            <div class="content">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi deleniti eos et
+                    impedit incidunt iusto natus recusandae! Atque consequuntur cumque explicabo incidunt mollitia quaerat
+                    soluta vel. Accusamus amet consectetur cum deleniti eligendi error, molestiae repellat. Doloribus eveniet
+                    ipsam praesentium voluptate. At culpa cupiditate debitis dicta eos esse iste laborum libero minus molestiae nihil
+                    omnis perferendis porro, qui sequi sit suscipit voluptatem? Architecto corporis dicta dolorem fuga, inventore natus,
+                    obcaecati odit quaerat quas quo ratione repellendus temporibus tenetur unde, vero. Adipisci aspernatur, autem beatae
+                    consequatur eveniet iste natus neque officia tempora ut. Accusamus cupiditate deleniti fugit praesentium suscipit, vel.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusamus, cum enim nemo numquam odio officiis? Assumenda cum ipsum provident rem!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur ex vero! Accusantium aliquam assumenda
+                    autem cumque dolor doloremque ea earum eligendi fugiat hic magni maiores, minus neque numquam praesentium qui, ratione
+                    rem reprehenderit repudiandae suscipit. Animi asperiores aspernatur dolorem doloribus, eligendi id, illo illum laboriosam
+                    nobis quam quo recusandae!
+                </p>
+
+            </div>
+
+            <figure class="image" style="margin-bottom: 20px">
+                <img src="img/md-huntergif.gif" alt="Hunter Gif">
+            </figure>
+
+            <div class="content">
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi deleniti eos et
+                impedit incidunt iusto natus recusandae! Atque consequuntur cumque explicabo incidunt mollitia quaerat
+                soluta vel. Accusamus amet consectetur cum deleniti eligendi error, molestiae repellat. Doloribus eveniet
+                ipsam praesentium voluptate. At culpa cupiditate debitis dicta eos esse iste laborum libero minus molestiae nihil
+                omnis perferendis porro, qui sequi sit suscipit voluptatem? Architecto corporis dicta dolorem fuga, inventore natus,
+                obcaecati odit quaerat quas quo ratione repellendus temporibus tenetur unde, vero. Adipisci aspernatur, autem beatae
+                consequatur eveniet iste natus neque officia tempora ut. Accusamus cupiditate deleniti fugit praesentium suscipit, vel.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus, cum enim nemo numquam odio officiis? Assumenda cum ipsum provident rem!
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur ex vero! Accusantium aliquam assumenda
+                autem cumque dolor doloremque ea earum eligendi fugiat hic magni maiores, minus neque numquam praesentium qui, ratione
+                rem reprehenderit repudiandae suscipit. Animi asperiores aspernatur dolorem doloribus, eligendi id, illo illum laboriosam
+                nobis quam quo recusandae!
+            </p>
+
+            </div>
+
+            <div class="box">
+                <article class="media center">
+                    <figure class="media-left">
+                        <figure class="image is-64x64">
+                            <img src="img/md-logo.png" alt="MichaelDraws Logo">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p>
+                            <strong>MichaelDraws</strong>
+                            <a href="https://twitter.com/michaeldtweets">@MichaelDTweets</a> <br>
+                            <span class="has-text-grey">Hey Guys, I draw stuff, play a ton of destiny and other games. <br> Some stuff @ <a
+                                    href="http://instagram.com/michaeldraws/">http://instagram.com/michaeldraws/</a>
+                            </span>
+
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="hero is-medium has-background">
+        <img class="hero-background" src="img/md-hunter.png" alt="MichaelDraws Hunter" style="object-position: 50% 10%; transform: scaleX(-1);">
+        <div class="hero-body">
+        </div>
+    </section>
+
+</body>
+
+</html>
